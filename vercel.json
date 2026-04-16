@@ -1,16 +1,16 @@
 {
-  "version": 2,
-  "name": "portfolio",
-  "builds": [
-    {
-      "src": "**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+    "version": 2,
+    "name": "haneen-dev",
+    "builds": [
+        {
+            "src": "**/*",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/$1"
+        }
+    ]
 }
